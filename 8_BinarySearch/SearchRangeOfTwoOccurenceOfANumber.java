@@ -36,7 +36,7 @@ public class SearchRangeOfTwoOccurenceOfANumber {
         int[] ans = {-1, -1};
         int start = 0;
         int end = nums.length - 1;
-        if(end == 0){
+        if(end == 0){    // handling the case for length 1 array
             if(nums[0] == target){
                 ans[0] = 0;
                 ans[1] = 0;

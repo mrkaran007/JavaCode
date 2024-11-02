@@ -49,7 +49,9 @@ public class StringComparision {
         System.out.println(str3 == str4); // Compare references: false, as str3 and str4 point to different objects
         System.out.println(str3.equals(str4)); // Compare values: true, as both strings contain the same characters
 
-        String str5 = "Karan";
+        String str5 = "Karan johar";
         System.out.println(str5.charAt(0));
+        int n = str5.length();
+        System.out.println(n);
     }
 }

@@ -1,0 +1,33 @@
+Q.> What is Rescursion?
+--> The function or method call itself is known as Rescursion.
+--> It is a recursive function that calls itself until it reaches the base case.
+--> Each function call store in Stack.
+
+Q.> Why Rescursion?
+--> It helps us in solving bigger/ complex problems in a simple way.
+--> It helps us in reducing the code length.
+--> You can convert rescursion solution int iteration & vice versa.
+--> Space complexity is not constant due to recursive call.
+--> Rescursion is used to solve problems that can be broken down into smaller sub-problems of   
+    the same type, which is known as divide and conquer approach.
+--> It reduces the complexity of the problem by breaking it down into smaller sub-problems.
+
+# Base condition ->> The condition where your recursion will stop.
+# No Base condition ->> Function call will keep happening, Stack will be filled again & again. 
+                        Result in memory of computer will exceed the limit and cause Stack overflow error.
+
+
+Q.> How to understand and approach a problem?
+--> Understand the problem statement.
+--> Identify if you can break the problem into sub problems.
+--> Identify the base case.
+--> Identify the recursive case or recurrence relation.
+--> Write the recursive case in terms of the problem.
+--> Write the base case in terms of the problem.
+--> Draw the recursive tree.
+==> About the tree:
+        -> See the flow of functions, how they are getting in stack.
+        -> Identify and focus on left tree calls and right tree calls.
+        -> Draw the tree and pointer again and again using pen & paper.
+        -> use debugger to see the flow.
+--> See how the value and what type of value are returned at each step.

@@ -1,0 +1,20 @@
+#Time Complexity..
+1.> Always look for worst case complexity
+2.> Always look at complexity for larger / infinite data
+3.> Always ignore constants
+4.> Always ignore less dominating terms
+
+** Example: O(3N^3 + 4N^2 + 5N + 1)
+1.> Worst case complexity is O(N^3)     
+2.> Complexity for larger data is O(N^3)
+3.> Ignore constants (3, 4, 5, 1)
+4.> Ignore less dominating terms (4N^2, 5N, 1)
+
+#NOTE:
+*   O(1) < O(log N) < O(N) < O(N*log N) < O(2^N)
+
+
+$ O(n) :
+1.> O(n) means that the time complexity is directly proportional to the size of the input   
+2.> Ever the value of actual time is differ they are all growing linearly
+3.> Don't care about actual time
